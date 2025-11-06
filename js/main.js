@@ -250,8 +250,9 @@ function setupEscenario2() {
 
   // Cargar modelo Paladin y aplicar animación Boxing (con “ticket”)
   const fbxLoader = new FBXLoader();
-  const urlModel = '../models/Paladin_WProp_J_Nordstrom.fbx';
-  const urlAnim  = '../models/Boxing.fbx';
+  const urlModel = 'https://raw.githubusercontent.com/PaolaOrtiz0320/estereoscopia3D/main/models/Paladin_WProp_J_Nordstrom.fbx';
+  const urlAnim  = 'https://raw.githubusercontent.com/PaolaOrtiz0320/estereoscopia3D/main/models/Boxing.fbx';
+
 
   fbxLoader.load(
     urlModel,
